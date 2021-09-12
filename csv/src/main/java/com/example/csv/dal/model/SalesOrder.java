@@ -8,8 +8,8 @@ import java.util.Date;
 
 @Data
 @Entity
-@Table(name = "sales")
-public class Sales {
+@Table(name = "sales_order")
+public class SalesOrder {
     @Id
     @GeneratedValue
     @Column(name = "id")
